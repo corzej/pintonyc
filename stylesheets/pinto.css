@@ -1,0 +1,252 @@
+@font-face{
+	font-family: 'micro';
+	src: url('../font/fonts_micro-flf/MicroFLF.ttf');
+
+}
+@font-face{
+	font-family: 'micro';
+	src: url('../font/fonts_micro-flf/MicroFLF-Bold.ttf');
+	font-weight: bold;
+}
+@font-face{
+	font-family: 'micro';
+	src: url('../font/fonts_micro-flf/MicroFLF-Italic.ttf');
+	font-style: italic;
+}
+@font-face{
+	font-family: 'micro';
+	src: url('../font/fonts_micro-flf/MicroFLF-BoldItalic.ttf');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+@font-face{
+	font-family:  'champagne_limousines';
+	src: url('../font/champagne_limousines/Champagne & Limousines.ttf');
+}
+
+
+.four.columns{
+	padding:0px;	
+}
+
+.twelve.columns{
+	padding:0px;	
+	text-align: center;
+}
+
+/* main things*/
+#logo{
+	display: block;
+	float: center;
+	height: 300px;
+	background: url(../images/pinto-logo.svg) center center no-repeat;
+	background-size: 150px;
+}
+
+.map{
+	display: block;
+	float: center;
+	height: 300px;
+	background: url(../images/map.svg) center center no-repeat;
+	background-size: 500px;
+}
+.heading{
+	font-family: micro;
+	text-align: center;
+	color: black;
+	font-size:x-large;
+	margin-bottom: 0px;
+	border-bottom: 1px solid black;
+}
+.heading.special{
+	letter-spacing: -0.020em;
+}
+.heading.menu{
+	background-color: rgb(10,20,32);
+	color: white;
+	font-size: larger;
+	padding: 5px 0px 5px 0px;
+
+}
+
+.panel{
+	background-color: white;
+	padding: 0px;
+	border:0px solid black;
+	margin-bottom: 0px;
+}
+.panel.menu{
+	background-color: rgb(10,20,32);
+	border-bottom: 1.5px solid rgb(214,215,216);
+	margin: 0px;
+	border-right: 1.5px solid white;
+}
+
+.content {
+	height: 350px;
+	text-align: left;
+	line-height: 1.5em;
+	padding:20px 20px 20px 20px;
+	background-color:rgb(10,20,32);
+	letter-spacing: 0.09em;
+	overflow: auto;
+	color: white;
+}
+.content.short{
+	height: 300px;
+}
+.content.photo{
+	height: auto;
+	padding: 0px;
+	border-top:1.5px solid black;
+	margin: 0px;
+	overflow: hidden; 	
+	background-color: white;	
+}
+.content.menu{
+	height: inherit;
+	padding: 0px;
+	border-top:1.5px solid black;
+	margin: 0px;
+	overflow: hidden; 	
+	background-color: white;
+	
+}
+.content.grey{
+	background-color: rgb(214,215,216);
+	color: rgb(10,20,32);
+	padding:20px 20px 20px 20px;
+
+}
+.fit{
+	width: 100%;
+}
+
+/*elements*/
+
+em{
+	font-weight: bold;
+	font-style: normal;
+}
+
+p{
+	padding: 0px;
+}
+
+body{
+	background-image: url(../images/pinto-background.svg);
+	background-size: 38px;
+	background-repeat: repeat;
+}
+strong{
+		font-weight: normal;
+		text-indent: 22px;
+}
+a{
+	color: white !important;
+}
+a:active{
+color: white !important;
+}
+a:hover{
+color: white !important;	
+}
+a:visited{
+	color: white !important;
+}
+a.black{
+	color: black !important;
+}
+a:active.black{
+	color: black !important;
+}
+.container{
+	background-color: white;
+	max-width: 940px;
+	min-height: 2000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+}
+
+.menuDetail{
+	color: black;
+	font-size: 10px;
+	line-height: 1em;
+}
+
+.big{
+	font-family: micro;
+	font-weight: bold;
+	font-size: medium;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	line-height: 2.5em;
+
+}
+.big.er{
+	font-size: large;
+}
+.nameOfFood{
+	font-weight: bold;
+	font-size: small;
+	text-align: left;
+	line-height: 1.7em;
+	letter-spacing: 0.04em;
+}
+.nameOfFood.oper{
+	margin-bottom: 10px;
+}
+.nameOfFood.formap{
+	padding-top: 0.5em;
+}
+.nameOfFood.appe{
+	font-weight: bold;
+	font-size: small;
+	text-align: left;
+	line-height: 1em;
+	letter-spacing: 0.04em;
+	margin-bottom: 0.7em;
+}
+.nameOfFood.ita{
+	font-style: italic;
+	line-height: 1.1em;
+}
+.nameOfFood.numb{
+	font-weight: normal;
+	text-indent: 22px;
+}
+.explanation{
+	font-weight: normal;
+	font-size: small;
+}
+
+.row.row{
+	margin: 0px;
+}
+.row.bot{
+		border-bottom: 1.5px solid black;
+}
+.row.sns{
+	padding: 15px 0px 15px 0px;
+	margin-bottom: 15px;
+}
+/* FC Webicons by Fairhead Creative http://fairheadcreative.com */
+
+.fc-webicon { display: inline-block; background-size: 100%; width: 30px; height: 30px; text-indent: -999em; text-align: left; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin-bottom: 5px; }
+.fc-webicon:hover { margin: -1px 0 1px; -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
+.fc-webicon.small { width: 20px; height: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.fc-webicon.large { width: 48px; height: 48px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+
+
+/* Facebook */
+
+.facebook { 
+	height: 50px;
+	background-image: url(../images/fc-webicon-facebook.svg); 
+	background-size: 30px;
+}
+.yelp { background-image: url(../images/yelp.svg); }
